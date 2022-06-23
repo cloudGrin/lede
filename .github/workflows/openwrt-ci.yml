@@ -50,11 +50,12 @@ jobs:
       - name: Sync lede
         run: |
           git remote add openwrt https://github.com/coolsnowwolf/lede.git
-          git config merge.ff false
-          git config pull.rebase true
-          git config rebase.autoStash true
-          git pull openwrt master
+          # git config merge.ff false
+          # git config pull.rebase true
+          # git config rebase.autoStash true
+          git fetch openwrt
           git remote -v
+          git merge openwrt/master
 
       - name: Update feeds
         run: |
