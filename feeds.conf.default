@@ -11,7 +11,7 @@ src-git helloworld https://github.com/fw876/helloworld.git
 src-git small https://github.com/kenzok8/small
 src-git jerryk https://github.com/jerrykuku/openwrt-package
 src-git dockerman https://github.com/lisaac/luci-app-dockerman.git
-src-git opentopd https://github.com/sirpdboy/sirpdboy-package
+#src-git opentopd https://github.com/sirpdboy/sirpdboy-package #有bug
 
 src-git luci_app_bandwidthd https://github.com/AlexZhuo/luci-app-bandwidthd.git
 src-git open_app_filter https://github.com/destan19/OpenAppFilter.git
